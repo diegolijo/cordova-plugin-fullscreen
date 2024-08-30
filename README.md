@@ -21,16 +21,14 @@ Installation
 
 **Cordova**
 
-`cordova plugin add cordova-plugin-fullscreen`
+`cordova plugin add diegolijo@cordova-plugin-fullscreen`
 
 **PhoneGap**
 
-`phonegap local plugin add cordova-plugin-fullscreen`
+`phonegap local plugin add diegolijo@cordova-plugin-fullscreen`
 
 Notes
 -----
-
-From version 1.0.2, the plugin ID has changed to `cordova-plugin-fullscreen` in line with the official Cordova plugin naming coventions following the switch to NPM. We therefore recommend that any previous version be uninstalled before upgrading to this release.
 
 Since the release of `android@5.0.0`, setting `<preference name="Fullscreen" value="true" />` in `config.xml` will use immersive mode, where available, even without this plugin.
 
